@@ -195,3 +195,108 @@ header {
         }
     }
 }
+.additional-information_section {
+    background-color: #E6CDB9;
+    padding-bottom: 32px;
+
+    .additional-information_wrapper {
+        padding: 0 96px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 64px;
+
+        div {
+            padding: 48px 0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            gap: 24px;
+
+            h2, h3 {
+                font-family: "Gloock", serif;
+            }
+
+            h2 {
+                font-size: 32px;
+            }
+
+            p {
+                line-height: 25px;
+            }
+        }
+
+        figure {
+            background-color: #EFE2D9;
+            margin-top: 24px;
+            justify-self: end;
+            border-top-left-radius: 250px;
+            border-top-right-radius: 250px;
+
+            img {
+                padding: 24px 24px 0 24px;
+                height: 300px;
+                width: auto;
+            }
+        }
+    }
+
+    .contacts {
+        padding: 24px 96px;
+        background-color: #FAF6F3;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 48px;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        a {
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            text-align: center;
+
+            &:hover {
+                color: #545454;
+            }
+        }
+    }
+
+    @media screen and (max-width: 950px) {
+        .additional-information_wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+        }
+
+        img {
+            height: 50%;
+            width: min-content;
+        }
+    }
+    @media screen and (max-width: 670px) {
+        .additional-information_wrapper {
+            figure img {
+                height: 200px;
+
+            }
+        }
+
+        .contacts {
+            grid-template-columns: 1fr 1fr;
+
+            .logo {
+                grid-row: 1;
+                grid-column: 1/3;
+            }
+        }
+    }
+}
