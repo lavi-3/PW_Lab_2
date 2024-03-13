@@ -1,0 +1,133 @@
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/* Reset default browser styles */\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n/* Global styles */\r\nbody {\r\n    font-family: 'Helvetica Neue', Arial, sans-serif;\r\n    background-color: #e7e7e7;\r\n    color: #333;\r\n    line-height: 1.6;\r\n}\r\n\r\n\r\n@media screen and (max-width: 768px) {\r\n    .cat-gallery img {\r\n        width: calc(50% - 20px); /* Calculate width to fit two images in a row with margin */\r\n    }\r\n}\r\n\r\n/* Utility classes for padding and margin */\r\n.padded {\r\n    padding: 20px;\r\n}\r\n\r\n.margin-bottom {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.container {\r\n    max-width: 1200px;\r\n    margin: 20px auto;\r\n    padding: 20px;\r\n    background-color: #fff;\r\n}\r\n\r\nheader, footer {\r\n    background-color: #f8f8f8;\r\n    color: #333;\r\n    padding: 20px 0;\r\n    text-align: center;\r\n}\r\n\r\nheader h1 {\r\n    font-size: 24px;\r\n}\r\n\r\nnav {\r\n    text-align: center;\r\n    background-color: #f8f8f8;\r\n}\r\n\r\nnav a {\r\n    color: #333;\r\n    text-decoration: none;\r\n    padding: 10px 20px;\r\n    margin: 0 10px;\r\n    display: inline-block;\r\n}\r\n\r\nnav a:hover {\r\n    color: #007bff;\r\n}\r\n\r\n/* Button styles */\r\n.button {\r\n    display: inline-block;\r\n    background-color: #007bff;\r\n    color: #fff;\r\n    padding: 10px 20px;\r\n    text-decoration: none;\r\n    border-radius: 5px;\r\n    transition: background-color 0.3s;\r\n}\r\n\r\n.button:hover {\r\n    background-color: #0056b3;\r\n}\r\n\r\n/* Main content and sections */\r\nsection {\r\n    padding: 20px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\nsection h2 {\r\n    color: #333;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.service {\r\n    background-color: #f4f4f4;\r\n    padding: 20px;\r\n    margin-bottom: 20px;\r\n    border-radius: 5px;\r\n    box-shadow: 0 2px 5px rgba(0,0,0,0.1);\r\n}\r\n\r\n\r\n/* Social proof section */\r\n.social-proof {\r\n    background-color: #f9f9f9;\r\n    border-left: 4px solid #007bff;\r\n    padding: 20px;\r\n}\r\n\r\nfooter {\r\n    background-color: #f8f8f8;\r\n    color: #333;\r\n    text-align: center;\r\n    padding: 20px 0;\r\n}\r\n\r\nfooter a {\r\n    color: #333;\r\n    text-decoration: none;\r\n    margin: 0 5px;\r\n}\r\n\r\nfooter a:hover {\r\n    color: #007bff;\r\n}\r\n
+===================================================================
+diff --git a/style.css b/style.css
+--- a/style.css	
++++ b/style.css	
+@@ -1,124 +1,0 @@
+-/* Reset default browser styles */
+-* {
+-    margin: 0;
+-    padding: 0;
+-    box-sizing: border-box;
+-}
+-
+-/* Global styles */
+-body {
+-    font-family: 'Helvetica Neue', Arial, sans-serif;
+-    background-color: #e7e7e7;
+-    color: #333;
+-    line-height: 1.6;
+-}
+-
+-
+-@media screen and (max-width: 768px) {
+-    .cat-gallery img {
+-        width: calc(50% - 20px); /* Calculate width to fit two images in a row with margin */
+-    }
+-}
+-
+-/* Utility classes for padding and margin */
+-.padded {
+-    padding: 20px;
+-}
+-
+-.margin-bottom {
+-    margin-bottom: 20px;
+-}
+-
+-.container {
+-    max-width: 1200px;
+-    margin: 20px auto;
+-    padding: 20px;
+-    background-color: #fff;
+-}
+-
+-header, footer {
+-    background-color: #f8f8f8;
+-    color: #333;
+-    padding: 20px 0;
+-    text-align: center;
+-}
+-
+-header h1 {
+-    font-size: 24px;
+-}
+-
+-nav {
+-    text-align: center;
+-    background-color: #f8f8f8;
+-}
+-
+-nav a {
+-    color: #333;
+-    text-decoration: none;
+-    padding: 10px 20px;
+-    margin: 0 10px;
+-    display: inline-block;
+-}
+-
+-nav a:hover {
+-    color: #007bff;
+-}
+-
+-/* Button styles */
+-.button {
+-    display: inline-block;
+-    background-color: #007bff;
+-    color: #fff;
+-    padding: 10px 20px;
+-    text-decoration: none;
+-    border-radius: 5px;
+-    transition: background-color 0.3s;
+-}
+-
+-.button:hover {
+-    background-color: #0056b3;
+-}
+-
+-/* Main content and sections */
+-section {
+-    padding: 20px;
+-    margin-bottom: 20px;
+-}
+-
+-section h2 {
+-    color: #333;
+-    margin-bottom: 10px;
+-}
+-
+-.service {
+-    background-color: #f4f4f4;
+-    padding: 20px;
+-    margin-bottom: 20px;
+-    border-radius: 5px;
+-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+-}
+-
+-
+-/* Social proof section */
+-.social-proof {
+-    background-color: #f9f9f9;
+-    border-left: 4px solid #007bff;
+-    padding: 20px;
+-}
+-
+-footer {
+-    background-color: #f8f8f8;
+-    color: #333;
+-    text-align: center;
+-    padding: 20px 0;
+-}
+-
+-footer a {
+-    color: #333;
+-    text-decoration: none;
+-    margin: 0 5px;
+-}
+-
+-footer a:hover {
+-    color: #007bff;
+-}
