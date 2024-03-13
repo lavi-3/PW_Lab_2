@@ -1,0 +1,32 @@
+header {
+    background-color: #EFE2D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 12px 96px;
+
+    img {
+        height: 77px;
+        width: auto;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 48px;
+        color: #707070;
+        transition: all 0.3s ease;
+
+        a {
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+
+            &:hover {
+                color: #545454;
+            }
+        }
+    }
+}

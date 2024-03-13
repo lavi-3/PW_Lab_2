@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af331a1e-aada-4da3-ab1a-b0d2b902288f" name="Changes" comment="Adding html and css files">
-      <change afterPath="$PROJECT_DIR$/images/Kitty.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/menu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="af331a1e-aada-4da3-ab1a-b0d2b902288f" name="Changes" comment="Adding html and css files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="change-description" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +38,9 @@
         <option name="url" value="https://github.com/lavi-3/PW_Lab_2.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -92,7 +86,7 @@
       <workItem from="1708976939824" duration="2696000" />
       <workItem from="1709026025010" duration="742000" />
       <workItem from="1710361594650" duration="48000" />
-      <workItem from="1710361784166" duration="737000" />
+      <workItem from="1710361784166" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="Adding html and css files">
       <option name="closed" value="true" />
