@@ -30,3 +30,44 @@ header {
         }
     }
 }
+.button {
+    font-size: 16px;
+    color: white;
+    background-color: #E3CCBA;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ccb7a9;
+    }
+}
+.primary_section {
+    background-image: url("images/Asset 16.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: #EFE2D9;
+    display: flex;
+    align-items: center;
+
+    div {
+        padding-left: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+
+        h1 {
+            font-size: 48px;
+            font-family: "Gloock", serif;
+        }
+
+        span {
+            font-size: 24px;
+        }
+    }
+
+
+}
