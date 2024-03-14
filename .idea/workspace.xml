@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af331a1e-aada-4da3-ab1a-b0d2b902288f" name="Changes" comment="Adding html and css files" />
+    <list default="true" id="af331a1e-aada-4da3-ab1a-b0d2b902288f" name="Changes" comment="Adding html and css files">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,12 +30,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "lavi-3"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lavi-3&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -62,7 +67,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Valeria/Documents/Univer/Anul 3 Sem 6/PW/Lab-2",
+    "last_opened_file_path": "C:/Users/Valeria/Documents/Univer/Anul 3 Sem 6/PW/tum-web-lab2-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,7 +91,9 @@
       <workItem from="1708976939824" duration="2696000" />
       <workItem from="1709026025010" duration="742000" />
       <workItem from="1710361594650" duration="48000" />
-      <workItem from="1710361784166" duration="3630000" />
+      <workItem from="1710361784166" duration="4312000" />
+      <workItem from="1710369654326" duration="553000" />
+      <workItem from="1710431129180" duration="1316000" />
     </task>
     <task id="LOCAL-00001" summary="Adding html and css files">
       <option name="closed" value="true" />
