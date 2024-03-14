@@ -103,7 +103,7 @@ header {
     img {
         height: 100px;
         width: 100px;
-        animation: bounce 2s ease, pulse 2s ease infinite;
+        animation: bounce 5s ease, pulse 2s ease infinite;
         animation-delay: 4s, 4s;
         animation-fill-mode: both;
         &:hover {
@@ -397,3 +397,53 @@ header {
     }
 
    }
+@media screen and (max-width: 1200px) {
+    .description_section, .rules_section {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .rules_section {
+        text-align: center;
+    }
+
+    .cats_section .cats_wrapper {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .additional-information_section .additional-information_wrapper {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .additional-information_section .contacts {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .description_section, .rules_section {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .rules_section {
+        text-align: center;
+    }
+
+    .cats_section .cats_wrapper {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .additional-information_section .additional-information_wrapper {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .additional-information_section .contacts {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
