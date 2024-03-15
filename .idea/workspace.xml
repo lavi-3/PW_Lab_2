@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="af331a1e-aada-4da3-ab1a-b0d2b902288f" name="Changes" comment="Adding html and css files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled-2.ai" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled-2.ai" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Valeria/Documents/Univer/Anul 3 Sem 6/PW/tum-web-lab2-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Valeria/Documents/Univer/Anul 3 Sem 6/PW/Lab-2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -92,7 +92,10 @@
       <workItem from="1710361594650" duration="48000" />
       <workItem from="1710361784166" duration="4312000" />
       <workItem from="1710369654326" duration="553000" />
-      <workItem from="1710431129180" duration="3848000" />
+      <workItem from="1710431129180" duration="6227000" />
+      <workItem from="1710444378559" duration="1913000" />
+      <workItem from="1710490654364" duration="1568000" />
+      <workItem from="1710495656457" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="Adding html and css files">
       <option name="closed" value="true" />

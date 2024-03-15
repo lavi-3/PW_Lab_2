@@ -30,9 +30,11 @@ header {
         }
     }
 }
+
 .mobile_header {
     display: none;
 }
+
 @media screen and (max-width: 950px) {
     header {
         display: none;
@@ -93,6 +95,7 @@ header {
         }
     }
 }
+
 .mascot {
     position: fixed;
     z-index: 4;
@@ -135,6 +138,7 @@ header {
         text-align: center;
     }
 }
+
 @keyframes bounce {
     0% {
         opacity: 0;
@@ -146,6 +150,7 @@ header {
         transform: scale(1);
     }
 }
+
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -157,6 +162,7 @@ header {
         transform: scale(1);
     }
 }
+
 .button {
     font-size: 16px;
     color: white;
@@ -169,6 +175,7 @@ header {
         background-color: #ccb7a9;
     }
 }
+
 .primary_section {
     background-image: url("images/Asset 16.png");
     background-repeat: no-repeat;
@@ -195,7 +202,30 @@ header {
             font-size: 24px;
         }
     }
+
+    @media screen and (max-width: 1200px) {
+        justify-content: center;
+        div {
+            padding-left: 0;
+        }
+    }
+    @media screen and (max-width: 950px) {
+        padding-top: 87px;
+        background-image: url("images/Asset-mobile.png");
+        background-color: rgba(0, 0, 0, 0.2);
+        background-blend-mode: darken;
+        div {
+            padding: 0 24px;
+
+        }
+
+        div h1 {
+            text-align: center;
+        }
+    }
+
 }
+
 .description_section {
     background-color: #EFE2D9;
     position: relative;
@@ -232,7 +262,27 @@ header {
         height: 450px;
         width: auto;
     }
+    @media screen and (max-width: 1200px) {
+        img {
+            position: initial;
+            height: 350px;
+            width: auto;
+        }
+    }
+    @media screen and (max-width: 950px) {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding-bottom: 64px;
+        align-items: center;
+        img {
+            height: min-content;
+            width: 70vw;
+        }
+    }
+
 }
+
 .rules_section {
     padding: 64px 96px;
     background-color: #FAF6F3;
@@ -395,7 +445,36 @@ header {
             }
         }
     }
+    @media screen and (max-width: 950px) {
+        .additional-information_wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+        }
 
+        img {
+            height: 50%;
+            width: min-content;
+        }
+    }
+    @media screen and (max-width: 670px) {
+        .additional-information_wrapper {
+            figure img {
+                height: 200px;
+
+            }
+        }
+
+        .contacts {
+            grid-template-columns: 1fr 1fr;
+
+            .logo {
+                grid-row: 1;
+                grid-column: 1/3;
+            }
+        }
+    }
    }
 @media screen and (max-width: 1200px) {
     .description_section, .rules_section {
