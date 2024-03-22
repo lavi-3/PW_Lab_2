@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af331a1e-aada-4da3-ab1a-b0d2b902288f" name="Changes" comment="Adding html and css files" />
+    <list default="true" id="af331a1e-aada-4da3-ab1a-b0d2b902288f" name="Changes" comment="Adding html and css files">
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +95,7 @@
       <workItem from="1710490654364" duration="1568000" />
       <workItem from="1710495656457" duration="4768000" />
       <workItem from="1710754459843" duration="1589000" />
-      <workItem from="1711100246654" duration="1604000" />
+      <workItem from="1711100246654" duration="1916000" />
     </task>
     <task id="LOCAL-00001" summary="Adding html and css files">
       <option name="closed" value="true" />
